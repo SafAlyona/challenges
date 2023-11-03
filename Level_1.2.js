@@ -30,7 +30,7 @@ function howMuchDifits (num) {
 }
 
 // 1.2.5
-function isFirstDigitsMatch (num1, num2){
+function FirstDigitsMatch (num1, num2){
 	let numStr1 = Math.abs(num1).toString()
 	let numStr2 = Math.abs(num2).toString()
 

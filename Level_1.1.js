@@ -5,12 +5,12 @@ function isNegative (num) {
 		result = 'positive number'
 	}
 
-	return console.log(result)
+	return result
 }
 
 // 1.1.2
 function strLength (str) {
-	return console.log(str.length)
+	return str.length
 }
 
 // 1.1.3
@@ -28,7 +28,7 @@ function isEven (num) {
 }
 
 // 1.1.5
-function isFirstLettersMatch (word1, word2) {
+function FirstLettersMatch (word1, word2) {
 	if (word1[0] === word2[0]){
 		return 'Match!'
 	} return 'Doesn`t match :('
