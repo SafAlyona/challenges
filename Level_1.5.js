@@ -37,7 +37,7 @@ const remainderOfDivision = (num1, num2) => num1 % num2
 
 // 1.5.5 Some string is given. Iterate through and output to the console all the characters from the end of the line in turn
 function outputsEachStringCharacter (str) {
-	res = []
+	let res = []
 	for (i = str.length - 1; i >= 0; i--) {
 		res.push(str[i])
 	}
